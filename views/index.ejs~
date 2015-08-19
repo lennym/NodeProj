@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+
+	<% include templates/nav.ejs %>	
+
+	<p>name <%=tit %></p>
+	
+	<ul>
+		<% for (var i=0; i<5;i++) { %>
+		<li>Tuna </li>
+		<%  }  %>
+		
+	</ul>
+	
+  </body>
+</html>
